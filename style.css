@@ -1,0 +1,573 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Title Bar / Navbar */
+header {
+    background: #138017;
+    padding: 5px 0;
+    color: white;
+    text-align: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    height:90px;
+}
+.navbar .logo img {
+    height: 70px; /* Adjust the size of your logo */
+    width: auto;
+    display:grid;
+    padding: 2px 2px ;
+}
+.navbar h2{
+    text-align: left;
+    font-size: 29px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left:20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-size: 21px;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+/*home*/
+.section {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 10px 0;
+    height: 750px;
+}
+
+.section:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+/*gallery*/
+.section-gallery {
+    background-color: #f4f4f4;
+    height: 750vh;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('pictures/8.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Ensure text contrasts well with the background */
+    padding: 10px 0;
+}
+
+.section:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1px 20px;
+    height: 890px;
+    margin-bottom: 20px;
+}
+.container img{
+    height:275px;
+}
+
+.container h2 {
+    color: #dee9de;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container h1{
+    color:#e3efe8;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container h5{
+    color:#5cde92;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container p{
+    color: #85f092;
+    font-size: 25px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*about us*/
+.container-para {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 890px;
+}
+.container-para img{
+    height:275px;
+}
+
+.container-para h2 {
+    color: #dee9de;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-para h1{
+    color:#e3efe8;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-para p{
+    color: #85f092;
+    font-size: 25px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+/* Section Styling */
+.section {
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('pictures/8.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Ensure text contrasts well with the background */
+    padding: 7cap 0;
+}
+.section h2{
+    color: #e8f1ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.section:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #064709;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+.events-section {
+    background-color: #e5ebdf;
+    padding: 50px 20px;
+}
+
+.events-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #000000;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.event {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event h3 {
+    font-size: 1.5em;
+    color: #2d6a4f;
+    margin: 10px 0 5px;
+}
+
+.event p {
+    font-size: 1em;
+    color: #555;
+}
+/*event gallery part*/
+.event-gallery {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+.event-gallery img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event-gallery h3 {
+    font-size: 1.0em;
+    color: #2d6a4f;
+    margin: 10px 0 5px;
+}
+
+.event-gallery p {
+    font-size: 1em;
+    color: #555;
+}
+
+.container-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 890px;
+}
+.container-gallery img{
+    height:275px;
+}
+
+.container-gallery h2 {
+    color: #dee9de;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-gallery h1{
+    color:#e3efe8;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-gallery h5{
+    color:#4bc94b;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container-gallery p{
+    color: #5bc95f;
+    font-size: 25px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*contact part */
+.container-contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 890px;
+}
+.container-contact img{
+    height:275px;
+}
+
+.container-contact h2 {
+    color: #dee9de;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-contact h1{
+    color:#e3efe8;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.container-contact h5{
+    color:#4bc94b;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container-contact p{
+    color: #5bc95f;
+    font-size: 25px;
+    font-weight:100;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+/* section event*/
+.section-events {
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('pictures/8.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Ensure text contrasts well with the background */
+    padding: 7cap 0;
+    height: 790px;
+}
+.section-events h2{
+    color: #e8f1ec;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.section-events:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+
+/*registration Page*/
+
+.register-button, .register-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-register {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745; /* Green background */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #218838; /* Darker green on hover */
+    cursor: pointer;
+}
+
+.section-register {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('pictures/8.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Ensure text contrasts well with the background */
+    padding: 5px 0;
+    height: 1700 px;
+}
+.section-register h2{
+    color: #e8f1ec;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+.section-register h3{
+    color: #e8f1ec;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.section-register:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+.container-register {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-register img{
+    padding:25px,0;
+    height:500px;
+    width: 70%;
+    padding: 10px,0;
+    margin-top: 50px;
+    
+}
+
+.container-register h2 {
+    color: #97e184;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+.container-register h3{
+    padding: 15px,0;
+    color:#e3efe8;
+    font-size: 30px;
+    margin-bottom:10px;
+}
+.container-register p{
+    color: #cef1cf;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/*dropdown*/
+/* Dropdown Button Styling */
+.dropdown {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px,0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dropdown-btn {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 102%;
+    
+}
+
+.dropdown-btn:hover {
+    background-color: #05310e; /* Darker green on hover */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position:relative;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    list-style-type:;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content ul li {
+    padding: 8px 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.dropdown-content ul li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content ul li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show Dropdown Content on Button Click */
+.show {
+    display: block;
+}
+
+.register{
+    padding: 20px,0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register:hover {
+    background-color: #05310e; /* Darker green on hover */
+}
+/* Know More Button Styling */
+.know-more-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-know-more {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #34820f; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-know-more:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer;
+}
+.logo-contact img {
+    height: 170px; /* Adjust the size of your logo */
+    display:inline-block;
+}
